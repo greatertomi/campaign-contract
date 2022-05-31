@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "buildContract": "node ./ethereum/compile.js"
+    "buildContract": "node ./ethereum/compile.js",
+    "dev": "next dev"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,9 @@
     "fs-extra": "^10.0.0",
     "ganache-cli": "^6.12.2",
     "mocha": "^9.1.2",
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
     "solc": "^0.4.17",
     "web3": "^1.6.0"
   },
